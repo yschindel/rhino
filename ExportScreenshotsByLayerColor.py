@@ -1,6 +1,6 @@
 import rhinoscriptsyntax as rs
 
-filename_base = "C:/temp/547_2105_CityGrid-Screenshot_"
+filename_base = "C:/temp/"
 n = 2
 layer_colors = set()
 layers_all = rs.LayerNames()
