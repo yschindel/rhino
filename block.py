@@ -100,7 +100,7 @@ class Element:
 
     def prepare(self):
         self.getFaces()
-        self.getBase(select=True)
+        self.getBase(select=False)
         self.getPoints()
         # self.getVolume()
         self.getDistance()
@@ -135,7 +135,7 @@ def run():
     print('add block success')
     for element in Element.instances:
         element.toBlock()
-        # element.clean()
+        element.clean()
 
 
 rs.EnableRedraw(False)
